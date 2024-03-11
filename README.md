@@ -11,11 +11,11 @@ git clone https://github.com/tbtrung39/KHDL_K17A1_LAB.git
 **LƯU Ý:** Nếu chưa sử dụng Gitbash trên máy bao giờ, Gitbash lúc này sẽ yêu cầu đăng nhập vào tài khoản git. Bắt buộc phải sử dụng tài khoản git gắn với gmail sinh viên được nhà trường cấp
 ## II. Thực hiện tạo nhánh cho cá nhân
 
-- Sau khi clone repository về máy thành công tiến hành tạo **NHÁNH CHÍNH** theo **ĐÚNG** format: `<ROOT_lớp_họ_và_tên_msv>`. Format phải **CHÍNH XÁC** giống như sau: `ROOT_DHTI10A1HN_Ngo_Quang_Dai_1122334455`
+- Sau khi clone repository về máy thành công tiến hành tạo **NHÁNH CHÍNH** theo **ĐÚNG** format: `<ROOT_lớp_họ_và_tên_msv>`. Format phải **CHÍNH XÁC** giống như sau: `ROOT_KHDL17A1HN_Ngo_Quang_Dai_1122334455`
 - Sử dụng lệnh sau để tạo nhánh:
 
 ```
-git checkout -b ROOT_DHTI10A1HN_Ngo_Quang_Dai_1122334455
+git checkout -b ROOT_KHDL17A1HN_Ngo_Quang_Dai_1122334455
 ```
 
 **LƯU Ý:** Nhánh chính làm không chính xác sẽ bị xóa, nếu mất bài sinh viên tự chịu trách nhiệm
@@ -32,7 +32,7 @@ git commit -m "first commit"
 - Push **NHÁNH CHÍNH** lên remote repository với câu lệnh push origin kèm theo tên nhánh muốn push:
 
 ```
-git push origin ROOT_DHTI10A1HN_Ngo_Quang_Dai_1122334455
+git push origin ROOT_KHDL17A1HN_Ngo_Quang_Dai_1122334455
 ```
 
 ## III. Thực hiện làm các bài tập trong lab
@@ -60,7 +60,7 @@ git push origin Ngo_Quang_Dai_1122334455/lab01
 
 - Sau khi đã hoàn thành bài và commit đầy đủ lên nhánh lab của mình. Sinh viên truy cập github và tạo pull request vào **NHÁNH CHÍNH** của mình. Ghi rõ nội dung nộp bài Pull Request Title.
 
-**LƯU Ý:** **KIỂM TRA KĨ TRƯỚC KHI THỰC HIỆN PULL REQUEST** Không tạo pull request vào **MAIN** hoặc bất kỳ **NHÁNH CỦA SINH VIÊN KHÁC**, chỉ pull request vào **NHÁNH CHÍNH** do mình tạo (ví dụ: ROOT_DHTI10A1HN_Ngo_Quang_Dai_1122334455) vi phạm sẽ bị trừ điểm quá trình
+**LƯU Ý:** **KIỂM TRA KĨ TRƯỚC KHI THỰC HIỆN PULL REQUEST** Không tạo pull request vào **MAIN** hoặc bất kỳ **NHÁNH CỦA SINH VIÊN KHÁC**, chỉ pull request vào **NHÁNH CHÍNH** do mình tạo (ví dụ: ROOT_KHDL17A1HN_Ngo_Quang_Dai_1122334455) vi phạm sẽ bị trừ điểm quá trình
 
 ## V. Cập nhập bài tập trên git
 
@@ -68,7 +68,7 @@ git push origin Ngo_Quang_Dai_1122334455/lab01
 - Sinh viên checkout lại về **NHÁNH CHÍNH** của bản thân và pull lại từ nhánh main để cập nhập bài học
 
 ```
-git checkout ROOT_DHTI10A1HN_Ngo_Quang_Dai_1122334455
+git checkout ROOT_KHDL17A1HN_Ngo_Quang_Dai_1122334455
 git pull origin main
 ```
 
