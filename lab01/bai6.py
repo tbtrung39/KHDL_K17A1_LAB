@@ -1,9 +1,7 @@
-xa = int(input("nhập vào tọa độ xa: "))
-ya = int(input("nhập vào tọa độ ya: "))
-xb = int(input("nhập vào tọa độ xb: "))
-yb = int(input("nhập vào tọa độ yb: "))
-xc = int(input("nhập vào tọa độ xc: "))
-yc = int(input("nhập vào tọa độ yc: "))
-xg = (xa + xb + xc)/3
-yg = (ya + yb + yc)/3
-print(f"trọng tâm tam giác = {xg:.2f},{yg:.2F}")
+u = 220
+i = 2.7
+p = u*i
+thoi_giam = int(input("nhập thời gian sử dụng: "))
+so_dien = (p *  thoi_giam) / 3600000
+tien_dien = so_dien * 7000 
+print("tiền điên: ", tien_dien)

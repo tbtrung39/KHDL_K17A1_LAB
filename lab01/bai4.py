@@ -1,7 +1,3 @@
-u = 220
-i = 2.7
-p = u*i
-thoi_giam = int(input("nhập thời gian sử dụng: "))
-so_dien = (p *  thoi_giam) / 3600000
-tien_dien = so_dien * 7000 
-print("tiền điên: ", tien_dien)
+x = int(input("nhập x: "))
+fx = (-x + (x**2 +4)**1/2) / ((x**4 + 1)**1/7)
+print("fx", round(fx , 2))

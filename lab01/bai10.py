@@ -1,4 +1,4 @@
 import math
-a = float(input("nhập vào vận tốc a: "))
-ts = a**4 / math.log(4,5)
-print(f"thời gian oto đi được đến lúc dừng = {ts:.2f}")
+x = float(input("nhập x: "))
+fx = math.log(4,x) + math.log(x,2)
+print(f"f(x) = {fx:.2f}")

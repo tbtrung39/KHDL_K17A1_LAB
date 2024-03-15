@@ -1,7 +1,6 @@
-a = int(input("nhập a"))
-b = int(input("nhập b"))
-c = int(input("nhập c"))
-x = -b / 2 * a
-y = a * x**2 + b * x + c 
-print("x của đỉnh là:", round(x , 2))
-print("y của đỉnh là:", round(y, 2))
+a1 = int(input("Nhap toa do vecto a1 la:"))
+a2 = int(input("Nhap toa do vecto a2 la:"))
+b1 = int(input("Nhap toa do vecto b1 la:"))
+b2 = int(input("Nhap toa do vecto b2 la:"))
+T = a1*b1 + a2*b2
+print("Tich vo huong la:",T)

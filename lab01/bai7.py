@@ -1,9 +1,7 @@
-x = int(input("nhập x"))
-y = int(input("nhập y"))
-z = int(input("nhập z"))
-doi_xung_thieu_z = (x, y , -z)
-doi_xung_thieu_y = (x , -y , z)
-doi_xung_thieu_x = (-x , y , z)
-print("đối xứng qua oxy:", doi_xung_thieu_z)
-print("đối xứng qua oxz:", doi_xung_thieu_y)
-print("đối xứng qua oyz:", doi_xung_thieu_x)
+a = int(input("nhập a"))
+b = int(input("nhập b"))
+c = int(input("nhập c"))
+x = -b / 2 * a
+y = a * x**2 + b * x + c 
+print("x của đỉnh là:", round(x , 2))
+print("y của đỉnh là:", round(y, 2))

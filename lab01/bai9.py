@@ -1,5 +1,9 @@
-n = int(input("nhập vào số lần tung xúc sắc: "))
-p = (1/6)**3
-q = (1-p)**n
-xx = 1 - q
-print("xác xuất là: ", round(xx , 2))
+x = int(input("nhập x"))
+y = int(input("nhập y"))
+z = int(input("nhập z"))
+doi_xung_thieu_z = (x, y , -z)
+doi_xung_thieu_y = (x , -y , z)
+doi_xung_thieu_x = (-x , y , z)
+print("đối xứng qua oxy:", doi_xung_thieu_z)
+print("đối xứng qua oxz:", doi_xung_thieu_y)
+print("đối xứng qua oyz:", doi_xung_thieu_x)
