@@ -1,0 +1,6 @@
+x=float(input('nhập tọa độ x:'))
+y=float(input('nhập tọa độ y:'))
+z=float(input('nhập tọa độ z:'))
+print(f'đối xứng qua Oxy:{x,y,-z}')
+print(f'đối xứng qua Oxz:{x,-y,z}')
+print(f'đối xứng qua Oyz:{-x,y,z}')
