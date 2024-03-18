@@ -7,4 +7,5 @@ print(f"Mã sinh viên: {msv}")
 print(f"Họ tên: {ht}")
 print(f"Quê quán: {qq}")
 print(f"Năm sinh: {ns}")
-print(f"Điểm trung bình các năm: {dtb}")
+
+print(f"Điểm trung bình các năm: {dtb}") 
