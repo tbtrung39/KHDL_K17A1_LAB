@@ -1,4 +1,4 @@
 import math
-a = float(input("Nhap van toc a: "))
+a = float(input("Nhập vận tốc: "))
 t = a**4 / math.log(4,5) 
-print(f"Thoi gian oto di den luc dung la {t:.2f}")
+print(f"Thời gian oto đi đến đúng lúc là {t:.2f}")
