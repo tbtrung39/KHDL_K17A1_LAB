@@ -1,0 +1,8 @@
+ma_sv = int(input("Nhap ma so sinh vien:"))
+ho_ten = input("Nhap ho ten sinh vien:")
+que_quan = input("Nhap que quan sinh vien:")
+nam_sinh= int(input("Nam sinh sinh vien la:"))
+dtb1 = float(input("Diem trung binh nam hoc thu 1 la:"))
+dtb2 = float(input("Diem trung binh nam hoc thu 2 la:"))
+dtb3 = float(input("Diem trung binh nam hoc thu 3 la:"))
+print(ma_sv,ho_ten,que_quan,nam_sinh,dtb1,dtb2,dtb3)
