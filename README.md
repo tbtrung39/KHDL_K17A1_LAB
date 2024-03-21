@@ -50,7 +50,7 @@ git checkout -b Ngo_Quang_Dai_1122334455/lab01
 ```
 git add .
 git commit -m "thuc hanh lab01 da hoan thanh"
-git push origin Ngo_Quang_Dai_1122334455/lab01
+
 ```
 
 **LƯU Ý:** Kiểm tra kĩ nhánh hiện tại xem mình có đúng đang ở nhánh làm bài tập của mình không trước khi thực hiện. Nếu push trực tiếp vào nhánh **MAIN**, **NHÁNH CHÍNH** hoặc **NHÁNH CỦA SINH VIÊN KHÁC**, vi phạm sinh viên sẽ bị trừ điểm quá trình.
