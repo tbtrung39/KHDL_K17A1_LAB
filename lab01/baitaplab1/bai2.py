@@ -1,0 +1,5 @@
+s = int(input("Nhập giây:"))
+m = int(input("Nhập phút:"))
+h = int(input("Nhập giờ:"))
+d = int(input("Nhập ngày:"))
+print(f"Ngày {d} giờ {h} phút {m} giây {s} ")
