@@ -1,8 +1,8 @@
-s = int(input("Nhập số giây: "))
-d = s // (24 * 3600)
-s = s % (24 * 3600)
-h = s // 3600
-s %= 3600
-m = s // 60
-s %= 60
-print(f"{d} ngày, {h} giờ, {m} phút, {s} giây")
+d = int(input("Nhập vào số ngày: "))
+h = int(input("Nhập vào số giờ: "))
+m = int(input("Nhập vào số phút: "))
+s = int(input("Nhập vào số giây: "))
+ds= d * 86400 
+hs = h *3600
+ms = m * 60
+print(f"Thời gian sau khi quy đổi ra giây {d} ngày = {ds}s, {h} giờ = {hs}s , {m} phút = {ms}s")
