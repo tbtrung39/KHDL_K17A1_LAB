@@ -1,0 +1,7 @@
+xA,yA,zA=map(float,input("Nhap toa do diem :").split())
+Oxy=(xA,yA,-zA)
+Oxz=(xA,-yA,zA)
+Oyz=(-xA,yA,zA)
+print("Tọa độ của điểm đối xứng với nó qua mặt phẳng Oxy la:",Oxy)
+print("Tọa độ của điểm đối xứng với nó qua mặt phẳng Oxz la:",Oxz)
+print("Tọa độ của điểm đối xứng với nó qua mặt phẳng Oyz la:",Oyz)
