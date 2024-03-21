@@ -1,0 +1,9 @@
+r = float(input("nhập vào giá trị r: "))
+h = float(input("nhập vào giá trị chiều cao h: "))
+pi = 3.14
+the_tich = pi*(r**2)*h
+dien_tich_xq = 2*pi*r*h
+dien_tich_tp = 2*pi*r*h +2*pi*(r**2)
+print(f"thể tích  khối trụ = {the_tich}")
+print(f"diện tích xung quanh  khối trụ = {dien_tich_xq}")
+print(f"diện tích toàn phần khối trụ = {dien_tich_tp}")
