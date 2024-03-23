@@ -1,0 +1,13 @@
+masv = int(input("Nhập mã sinh viên:"))
+ten = input("Nhập tên sinh viên:")
+quequan = input("Nhập quê quán:")
+namsinh = int(input("Nhập vào năm sinh"))
+diem1 = float(input("Nhập điểm lớp 10:"))
+diem2 = float(input("Nhập điểm lớp 11:"))
+diem3 = float(input("Nhập điểm lớp 12:"))
+diemtb = diem1+diem2+diem3
+print(f"Mã sinh viên là {masv}")
+print(f"Tên học sinh {ten}")
+print(f"Quê quán là {quequan}")
+print(f"Năm sinh là {namsinh}")
+print(f"Điểm trung bình là {diemtb}")
