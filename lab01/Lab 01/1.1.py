@@ -1,0 +1,5 @@
+masv = int(input("Nhập MSV: "))
+hoten = input("Nhập họ tên: ")
+quequan = input("Nhập quê quán: ")
+namsinh = int(input("Nhập năm sinh: "))
+diemtb = float(input("Nhập điểm trung bình: "))
