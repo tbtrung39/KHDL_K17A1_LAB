@@ -1,0 +1,5 @@
+chieucao=int(input("nhập chiều cao hình trụ : "))
+bankinh=int(input("nhập bán kính của hình trụ : "))
+print("diện tích xung quanh hình trụ = ", 2*3.14*chieucao*bankinh )
+print("diện tích toàn phần của hình trụ : ", 2*3.14*bankinh**2+2*3.14*chieucao*bankinh)
+print("thể tích toan phần của hình trụ là : ", 3.14*bankinh**2*chieucao)
