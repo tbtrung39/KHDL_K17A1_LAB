@@ -1,0 +1,13 @@
+x=float(input('nhập giá trị x:'))
+n=int(input('nhập giá trị n:'))
+cos=1
+i=1
+while i <=n:
+    j=1
+    s=1
+    while j <=i*2:
+       s*=j
+       j+=1
+    cos+=((pow(-1,i)*pow(x,2*i))/s)
+    i+=1
+print(f'cos({x})={cos:.4}')
