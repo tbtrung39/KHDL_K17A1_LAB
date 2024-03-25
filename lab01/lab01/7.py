@@ -1,0 +1,7 @@
+x=int(input("nhập x:"))
+y=int(input("nhập y:"))
+z=int(input("nhập z:"))
+oxy=(x*1 and y*1 and z*-1)
+oxz=(x*1 and y*-1 and z*1)
+oyz=(x*-1 and y*1 and z*1)
+print(f"oxy{oxy:.1f},oxz={oxz:.1f},oyz={oyz:.1f}","là các tọa độ của mặt phẳng")
