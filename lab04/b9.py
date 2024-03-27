@@ -5,4 +5,3 @@ while True:
         tong += int(i)
     print("Tong cac so vua nhap la:",tong)
     break
-#10
