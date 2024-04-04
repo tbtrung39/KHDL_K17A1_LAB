@@ -6,8 +6,8 @@ for i in range(1 , len(a)):
         B = (a[i:])
         C = (b[:j])
         D = (b[i:])
-        if int(A) + int(B) == int(C) + int(D):
-            print(f"{A} + {B} = {C} + {D}")
-        else:
-            print("Không tồn tại cách đặt")
+if int(A) + int(B) == int(C) + int(D):
+    print(f"{A} + {B} = {C} + {D}")
+else:
+    print("Không tồn tại cách đặt")
 
