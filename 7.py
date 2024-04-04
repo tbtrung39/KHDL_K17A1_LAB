@@ -1,0 +1,5 @@
+Str = input("Nhập đoạn văn bản hoàn chỉnh: ")
+a = Str.split()
+b = input("Nhập từ đơn cần tìm: ")
+c = sum(1 for word in a if word == b)
+print(f"Số lần từ '{b}' xuất hiện trong đoạn văn bản là: {c}")
