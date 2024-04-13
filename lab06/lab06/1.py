@@ -1,0 +1,11 @@
+a = [2, 4, 1, 9, -3, 6, 3, -2, 6, 8]
+sum_a = sum(a)
+print("Tổng các phần tử của danh sách:", sum_a)
+số_duong = sum(1 for x in a if x > 0)
+tong_so_duong = sum(x for x in a if x > 0)
+print("Số lượng các số hạng dương:", số_duong)
+print("Tổng của các số hạng dương:", tong_so_duong)
+phan_tu_am= next((i for i, x in enumerate(a) if x < 0), None)
+print("Vị trí của phần tử âm đầu tiên trong danh sách:", phan_tu_am)
+phan_tu_lon_nhat = next((i for i in range(len(a)-1, -1, -1) if a[i] > 0), None)
+print("Vị trí của phần tử dương cuối cùng trong danh sách:", phan_tu_lon_nhat)
