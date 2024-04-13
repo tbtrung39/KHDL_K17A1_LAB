@@ -13,3 +13,8 @@ for i in range(m):
     for j in range(n):
         print(a[i][j], end=" ")
     print()
+tong = 0
+for i in range(m):
+    for j in range(n):
+        tong += a[i][j]
+print("Tổng các phần tử của ma trận là:", tong)
