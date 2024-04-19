@@ -1,0 +1,7 @@
+m = int(input("Nhap vao mot so m: "))
+n = int(input("Nhâp vao mot so n: "))
+m_str = str(m)
+n_str = str(n)
+so_chung = set(m_str) & set(n_str)
+tong = sum(int(a) for a in so_chung)
+print(f"Tong cac chu so chung cua {m} va {n} la: {tong}")
