@@ -1,0 +1,7 @@
+A=(5, 3.14, 'hello', 18, 'world', 2.717)
+so_nguyen=sum(isinstance(x,int)for x in A)
+so_thuc=sum(isinstance(x,float)for x in A)
+chuoi=sum(isinstance(x,str)for x  in A)
+print(so_nguyen)
+print(so_thuc)
+print(chuoi)
