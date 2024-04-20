@@ -2,6 +2,7 @@ a = [2,-4,1,9,-3,6,3,-2,6,8]
 tong_cac_ptu=sum(a)
 print('Tong cac phan tu la: ',tong_cac_ptu)
 
+# phan tu duong
 phan_tu_duong=[]
 for i in a:
     if i >0:
@@ -9,6 +10,7 @@ for i in a:
 print(phan_tu_duong)
 print('Tổng các phần tử dương là: ',sum(phan_tu_duong))
 
+# tim phan tu am dau tien
 phan_tu_am = ''
 for n in a:
     if n<0:
