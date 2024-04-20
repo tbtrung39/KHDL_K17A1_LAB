@@ -1,0 +1,8 @@
+m=int(input("nhap m:"))
+n=int(input("nhap n:"))
+m_str=str(m)
+n_str=str(n)
+diem_chung=set(m_str)&set(n_str)
+print("M va N co chu so chung:",diem_chung)
+tong=sum(int(digit)for digit in diem_chung)
+print("tong cac chu so chung:",tong)
