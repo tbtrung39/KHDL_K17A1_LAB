@@ -1,0 +1,10 @@
+import random
+n = int(input("Nhap so luong phan tu cua tap hop A la:"))
+tap_hop_A = set(random.randint(0,100) for _ in range(n))
+ptu_nho_nhat = min(tap_hop_A)
+ptu_lon_nhat = max(tap_hop_A)
+tong_cac_ptu = sum(tap_hop_A)
+print("Tap hop A la:",tap_hop_A)
+print("Tap hop A co phan tu nho nhat la:",ptu_nho_nhat)
+print("Tap hop A co phan tu lon nhat la:",ptu_lon_nhat)
+print("Tong cac phan tu cua tap hop A la:",tong_cac_ptu)
