@@ -1,0 +1,8 @@
+m = int(input("Enter a natural number:"))
+n = int(input("Enter a natural number2:"))
+set_a = set(str(m))
+set_b = set(str(n))
+ditgit = set_a.intersection(set_b)
+print(ditgit)
+sum_all = sum(map(int,ditgit))
+print(sum_all)
