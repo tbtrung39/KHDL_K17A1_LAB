@@ -1,0 +1,92 @@
+SET - được tạo bởi {} với các phần tử bên trong phân cách nhau bởi dấu ","
+
+CÁC PHÉP TOÁN TRONG SET
+     x1 = {'foo', 'bar', 'baz'}
+     x2 = {'baz', 'qux', 'quux'}
+     Phép hợp :
+          a = x1.union(x2) 
+          a = x1 | x2  
+     Phép trừ :
+          b = x1.difference(x2)   
+          b = x1 - x2
+     Hiệu đối xứng hai tập hợp :
+          c = x1.symmetric_difference(x2)  
+          c = x1 ^ x2
+     Phép giao :
+          d = x1.intersection(x2)
+          d = x1 & x2
+     Các phép hỗ trợ thêm :
+          x1.isdisjoint(x2)...............................................Kiểm tra hai tập hợp không giao nhau
+          x1.issubset({'foo', 'bar', 'baz', 'qux', 'quux'})...............Kiểm tra tập hợp A có phải con của B (toán tử <= )
+          x1.issuperset({'foo', 'bar'})...................................Kiểm tra tập hợp A có phải tập cha của B (toán tử >= )
+
+CẬP NHẬP PHẦN TỬ TRONG SET 
+     x1.difference_update(x2).................Thực hiện phép trừ tập hợp trước, được kết quả như nào sẽ cập nhật vào tập hợp đích (x1 -= x2)
+     x1.symmetric_difference_update(x2).......Thực hiện phép trừ đối xứng 2 tập hợp trước, được kết quả như nào sẽ cập nhật vào tập hợp đích (x1 ^= x2)
+     x1.intersection_update(x2)...............Thực hiện phép giao tập hợp trước, được kết quả như nào sẽ cập nhật vào tập hợp đích (x1 &= x2)
+     x.add(<elem>)............................Thêm một phần tử vào set 
+     remove x.remove(<elem>)..................Loại bỏ một phần tử khỏi set, báo lỗi nếu phần tử không tồn tại 
+     discard x.discard(<elem>)................Loại bỏ một phần tử khỏi set,  không báo lỗi nếu phần tử không tồn tại 
+     pop x.pop()..............................Lấy một phần tử bất kì và loại bỏ phần tử đấy khỏi set 
+     clear x.clear()..........................Loại bỏ tất cả các phần tử trong set 
+
+FROZEN SET:
+   • Frozen Set là một set được đóng băng. Các phép tính về Set vẫn có thể thực hiện trên Frozen Set tuy nhiên
+     các phương thức cập nhập không còn được áp dụng
+   • Khi set đóng băng, toàn bộ set này sẽ được coi như một phần tử không thể thay đổi và có thể sử dụng trong set khác
+     x = frozenset(['foo', 'bar', 'baz'])
+     print(x) #frozenset({'bar', 'baz', 'foo'})
+     x & {'baz', 'qux', 'quux'} #frozenset({'baz'})
+
+
+
+
+#DICTIONARY - mảng liên kết
+
+THAY ĐỔI CÁC GIÁ TRỊ TRONG DICTIONARY:
+   • Các giá trị trong dictionary có thể truy cập dựa trên khóa
+          MLB_team = {
+              'Colorado' : 'Rockies',
+              'Boston'   : 'Red Sox',
+              'Minnesota': 'Twins',
+              'Milwaukee': 'Brewers',
+              'Seattle'  : 'Mariners'
+              }
+          print(MLB_team['Minnesota']) #Twins
+
+   • Tương tự như List, thay đổi giá trị trong từ điển bằng cách gọi đến khóa của nó (thay vì chỉ số) và gán giá trị 
+          MLB_team = {
+               'Colorado' : 'Rockies',
+               'Boston'   : 'Red Sox',
+               'Minnesota': 'Twins',
+               'Milwaukee': 'Brewers',
+               'Seattle'  : 'Mariners'
+               }
+          MLB_team['Seattle'] = 'Seahawks'
+          print(MLB_team)
+   • Nếu gán giá trị cho khóa mà chưa tồn tại trong Dictionary, Dictionary sẽ tạo khóa mới cùng giá trị được gán
+          MLB_team = {
+               'Colorado' : 'Rockies',
+               'Boston'   : 'Red Sox',
+               'Minnesota': 'Twins',
+               'Milwaukee': 'Brewers',
+               'Seattle'  : 'Mariners'
+               }
+          MLB_team['Kansas City'] = 'Royals'
+          print(MLB_team)
+
+CÁC PHƯƠNG THỨC TRONG DICTIONARY 
+     dct_a = {"a": [1,2,3,4],
+         "b": {2,3,4,5},
+         "c":{"k":1,
+              "m":(1,2,3),
+              "l":[3,4,5]}}
+     Các phương thức :
+     dct_a.get(<key>[, <default])............Trả về giá trị tương ứng với khóa cần tìm
+     dct_a.keys()............................Trả về danh sách các khóa có trong từ điển đó
+     dct_a.values()..........................Trả về danh sách các giá trị có trong từ điển đó
+     dct_a.items()...........................Trả về danh sách các khóa và giá trị tương ứng có trong từ điển đó
+     dct_a.clear()...........................Loại bỏ tất cả các phần tử trong dictionary
+     dct_a.pop(<key>[, <default>])...........Trả về giá trị theo khóa truyền vào và loại bỏ cặp khóa giá trị này ra khỏi dictionary
+     dct_a.popitem().........................Trả về tuple cặp khóa – giá trị cuối cùng của dictionary và loại bỏ cặp này ra khỏi đó
+     dct_a.update(<obj>).....................Nối hai dictionary vào nhau
