@@ -1,0 +1,10 @@
+import random
+n = int(input('Nhap so luoong phan tu A:'))
+A = set(random.uniform(0,100) for _ in range(n))
+min_A = min(A)
+max_A = max(A)
+sum_A = sum(A)
+print('Tap hop A',A)
+print('Phần tử nhỏ nhất trong tập hợp A là:',min_A)
+print('Phần tử lớn nhất trong tập hợp A là:',max_A)
+print('Tổng phần tử trong tập hợp A là:',sum_A)
