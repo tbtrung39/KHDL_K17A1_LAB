@@ -1,0 +1,5 @@
+m = input("Nhập số m: ")
+n = input("Nhập số n: ")
+tong = set(m) & set(n)
+total = sum(int(i) for i in tong)
+print("Tổng các chữ số duy nhất chung của m và n:", total)
