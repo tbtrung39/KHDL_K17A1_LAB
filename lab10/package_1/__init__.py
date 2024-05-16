@@ -1,0 +1,1 @@
+from my_Triange import is_tam_giac, chu_vi_tam_giac, S_tam_giac
