@@ -1,0 +1,1 @@
+from.modu1 import tam_giac,chuvi,S

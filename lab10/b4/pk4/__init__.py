@@ -1,0 +1,2 @@
+from.modu1 import giai_phuong_trinh_bac1
+from.modu2 import giai_pt_bac2
