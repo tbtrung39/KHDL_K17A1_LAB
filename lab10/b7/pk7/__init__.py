@@ -1,0 +1,1 @@
+from.modu1 import chia_het7,kiem_tra_so_chinh_phuong,tao_danh_sach,tong
