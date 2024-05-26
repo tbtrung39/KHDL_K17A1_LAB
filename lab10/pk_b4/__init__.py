@@ -1,0 +1,2 @@
+from .pt_bac1 import giai_phuong_trinh_bac_nhat
+from .pt_bac2 import giai_phuong_trinh_bac_hai

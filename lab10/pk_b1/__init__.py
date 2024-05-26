@@ -1,0 +1,1 @@
+from .my_Triange import is_Tamgiac, Chuvitamgiac, S_Tamgiac
