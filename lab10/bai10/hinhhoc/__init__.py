@@ -1,0 +1,2 @@
+from my_square import chu_vi_hinh_vuong,dien_tich_hinh_vuong
+from my_triange import ChuViTamGiac,is_tamgiac,S_tam_giac
