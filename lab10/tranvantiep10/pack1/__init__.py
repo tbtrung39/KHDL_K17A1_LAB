@@ -1,0 +1,1 @@
+from .modul1 import is_TamGiac, ChuviTamGiac, S_TamGiac
