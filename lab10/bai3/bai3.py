@@ -1,0 +1,10 @@
+import sohoc
+a=int(input("nhap a : "))
+b=int(input(" nhap b : "))
+n=int(input(" nhap n : "))
+print("uoc chung lon nhat ")
+print(sohoc.ucln(a,b))
+print("boi chung nho nhat")
+print(sohoc.bnln(a,b))
+print("tong uoc cua n")
+print(sohoc.sumdivisor(n))
