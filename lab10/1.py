@@ -1,0 +1,10 @@
+from pk_1 import modul1,modul2,modul3
+a = int(input("nhập cạnh a:"))
+b = int(input("nhập cạnh b:"))
+c = int(input("nhập cạnh c:"))
+kiem_tra = modul1.s_kiem_tra(a,b,c)
+print("kiểm tra",kiem_tra)
+chu_vi = modul2.chu_vi_tam_giac(a,b,c)
+print("chu vi", chu_vi)
+diem_tich = modul3.s_tam_giac(a,b,c)
+print("diện tích", diem_tich)

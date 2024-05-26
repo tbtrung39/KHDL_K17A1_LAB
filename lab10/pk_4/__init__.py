@@ -1,0 +1,1 @@
+from .modul import giai_phuong_trinh_bac_nhat,giai_phuong_trinh_bac_hai

@@ -1,0 +1,1 @@
+from .modul import sinh_ngau_nhien_va_hien_thi,kiem_tra_so_nguyen_to_chia_het_cho_7,kiem_tra_so_nguyen_to,tinh_tong_so_le,kiem_tra_so_chinh_phuong
