@@ -1,0 +1,4 @@
+102 Tran Thi B 9.00
+101 Nguyen Van A 8.50
+104 Hoang Thi D 8.00
+103 Le Van C 7.50
