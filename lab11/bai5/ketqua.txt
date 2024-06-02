@@ -1,0 +1,5 @@
+00101,LeDanhQuan,10
+00102,NguyenVanA,9
+00104,NguyenVanC,9
+00103,NguyenVanB,8
+00105,nguyenVanD,4
