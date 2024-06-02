@@ -1,0 +1,4 @@
+1 Nguyen Thao A 9.00
+4 Trinh Minh Q 8.80
+3 Dao Tung D 8.70
+2 Tran Van B 8.50
